@@ -1,0 +1,74 @@
+CREATE TABLE Edibility
+(
+	id INT PRIMARY KEY NOT NULL,
+	status VARCHAR(50)
+)
+
+
+CREATE TABLE Biotope
+(
+	id INT PRIMARY KEY NOT NULL,
+	region VARCHAR(50)
+)
+
+
+CREATE TABLE Groupe
+(
+	id INT PRIMARY KEY NOT NULL,
+	name VARCHAR(50)
+)
+
+
+CREATE TABLE Smell
+(
+	id INT PRIMARY KEY NOT NULL,
+	name VARCHAR(50)
+)
+
+
+CREATE TABLE Trophic_status
+(
+	id INT PRIMARY KEY NOT NULL,
+	status VARCHAR(50)
+)
+
+
+CREATE TABLE FAVORIS
+(
+	id INT PRIMARY KEY NOT NULL,
+	idMembre INT,
+	idMush INT
+)
+
+
+CREATE TABLE Mushroom
+(
+	id INT PRIMARY KEY NOT NULL,
+	nameLat VARCHAR(50) NOT NULL,
+	nameFr VARCHAR(50) NOT NULL,
+	surname VARCHAR(50) NOT NULL,
+	edibility VARCHAR(50) FOREIGN KEY REFERENCES Edibility(status),
+	biotope VARCHAR(50) FOREIGN KEY REFERENCES Biotope(region),
+	stipe VARCHAR(50),
+	cap VARCHAR(50),
+	trophic_status VARCHAR(50) FOREIGN KEY REFERENCES Trophic_status(status),
+	smell VARCHAR(50) FOREIGN KEY REFERENCES Smell(name),
+	groupe VARCHAR(50) FOREIGN KEY REFERENCES groupe(name),
+	lames VARCHAR(50),
+	confusion VARCHAR(50),
+	flesh VARCHAR(100)
+)
+
+
+CREATE TABLE Membre
+(
+	id INT PRIMARY KEY NOT NULL,
+	lastName VARCHAR(50),
+	firstName VARCHAR(50),
+	mail VARCHAR(50),
+	pass VARCHAR(100),
+	role VARCHAR(30),
+	favoris INT FOREIGN KEY REFERENCES Favoris(id)
+)
+
+
