@@ -26,3 +26,4 @@ Route::post('/createMushroom', ['as' => 'createMushroom', 'uses' => 'CreateMushr
 
 Route::get('/updateMushroom', ['as' => 'updateMushroom', 'uses' => 'UpdateMushroomController@index']);
 Route::post('/updateMushroom', ['as' => 'updateMushroom', 'uses' => 'UpdateMushroomController@updateMushroom']);
+Route::post('/mushroomList', ['as' => 'mushroomList', 'uses' => 'MushroomListController@addMushroom']);
