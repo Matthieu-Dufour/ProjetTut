@@ -28,6 +28,7 @@ class CreateMushroomTable extends Migration
             $table->string('lames', 50)->nullable(true);
             $table->string('confusion', 50)->nullable(true);
             $table->string('flesh', 100)->nullable(true);
+            $table->string('image', 100)->nullable(true);
         });
         Schema:: table('Mushroom', function(Blueprint $table){
             $table->foreign('edibility')->references('status')->on('Edibility');

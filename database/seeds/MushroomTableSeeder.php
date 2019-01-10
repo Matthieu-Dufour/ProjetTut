@@ -24,7 +24,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Tylopilus porphyrosporus',
             'nameFr' => 'Bolet à sporée pourprée',
@@ -38,7 +39,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Clitocybe alexandri',
             'nameFr' => 'Clitocybe plombé',
@@ -52,7 +54,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Caloboletus calopus',
             'nameFr' => 'Bolet à beau pied',
@@ -66,7 +69,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Amanita echinocephala',
             'nameFr' => 'Amanite épineuse',
@@ -80,7 +84,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Stereum ochraceoflavum',
             'nameFr' => 'Stérée ochracé jaune',
@@ -94,7 +99,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Bertia moriformis',
             'nameFr' => 'Bertia en forme de mûre',
@@ -108,7 +114,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Rhodocollybia maculata',
             'nameFr' => 'Collybie maculée',
@@ -122,7 +129,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Hemipholiota populnea',
             'nameFr' => 'Pholiote destructrice',
@@ -136,7 +144,8 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
         DB::table('Mushroom')->insert([
             'nameLat' => 'Russula amethystina',
             'nameFr' => 'Russule améthyste',
@@ -150,6 +159,7 @@ class MushroomTableSeeder extends Seeder
             'groupe' => '',
             'lames' => '',
             'confusion' => '',
-            'flesh' => '']);
+            'flesh' => '',
+            'image' => '']);
     }
 }
