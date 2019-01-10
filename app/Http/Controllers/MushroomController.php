@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 
-class ListeChampiController extends Controller
+class MushroomController extends Controller
 {
     /**
      * Create a new controller instance.
