@@ -12,297 +12,123 @@
 
 
 @section('content')
-<form>
-            <div class="jumbotron ombre">
-                <div class="container">
-                    <div class='row'>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
+        <form>
+            <div class="panel ombre">
+                <div class="container ">
+                    <div class="form-row">
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Odeur" id="smell">
                         </div>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Exemple">
                         </div>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Exemple">
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
+                    <div class="form-row">
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Exemple">
                         </div>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Exemple">
                         </div>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class='col-sm-4'>
-                            <div class="form-group">
-                                <label for="champ1">Champ</label>
-                                <select id="mounth">
-                                    <option value="hide">-- Month --</option>
-                                    <option value="january" rel="icon-temperature">January</option>
-                                    <option value="february">February</option>
-                                    <option value="march">March</option>
-                                    <option value="april">April</option>
-                                    <option value="may">May</option>
-                                    <option value="june">June</option>
-                                    <option value="july">July</option>
-                                    <option value="august">August</option>
-                                    <option value="september">September</option>
-                                    <option value="october">October</option>
-                                    <option value="november">November</option>
-                                    <option value="december">December</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container" id="recherche">
-                <div class="row">
-                    <div class="col-sm"></div>
-                    <div class="col-sm" id="reduire">
-                        <p>Reduire <i class="fas fa-angle-up"></i></p>
-                    </div>
-                    <div class="col-sm"></div>
-                </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Exemple">
 
-                <div class="row">
-                    <div class="col-sm"></div>
-                    <div class='col-sm'>
-                        <div class="form-inline">
-                            <button type="button" class="btn btn-success bouton">Rechercher</button>
-                            <input type="text" class="form-control recherche" placeholder="recherche">
                         </div>
                     </div>
-                    <div class="col-sm"></div>
+                    <div class="form-row">
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Exemple">
+                        </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Exemple">
+
+                        </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Exemple">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-sm">
+                        </div>
+                        <div class="col-sm">
+                            <button type="button" class="btn btn-success">Rechercher</button>
+                        </div>
+                        <div class="col-sm">
+                            <p style="text-align: center"><a href="#">Voir les listes de propositions</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </form>
+        <div class="container">
+            <p class="slide"><a href="#" class="pull-me">Recherche avancée ↓</a></p>
+        </div>
+        <div class="container">
+            <div class="form-inline">
 
-        <div class="container ">
-
-            <div class="liste">
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
-                <div class="listitem " style="background-image: url(mush2.jpg);"></div>
+                <input type="text" class="form-control live-search-box" placeholder="recherche">
             </div>
+        </div>
 
+        <div class="container">
+            <ul class="flex-container live-search-list">
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush1.jpg)">aaa</li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)">bbb</li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)">ccc</li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)">ddd</li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)">eee</li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)">fff</li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush1.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush1.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+                <a href="#">
+                    <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
+                </a>
+            </ul>
         </div>
 @endsection
