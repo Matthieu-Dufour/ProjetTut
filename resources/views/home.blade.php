@@ -1,17 +1,7 @@
-@extends('default')
-
-
-@section('title')
-    Accueil
-@endsection
-
-
-<!-- @section('link')
-    <link rel="stylesheet" href="{{ asset('/css/home.css') }}">
-@endsection -->
-
+@extends('layouts.app')
 
 @section('content')
+<<<<<<< HEAD
         <form>
             <div class="panel ombre">
                 <div class="container ">
@@ -130,5 +120,8 @@
                     <li class="flex-item" style="background-image: url(mush2.jpg)"></li>
                 </a>
             </ul>
+
         </div>
+    </div>
+</div>
 @endsection
