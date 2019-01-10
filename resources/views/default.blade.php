@@ -47,12 +47,21 @@
             </ul>
             <form class="form-inline mt-2 mt-md-0">
                 <ul class="navbar-nav mr-auto">
+                @auth
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Mon profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Déconnexion</a>
+                    </li>
+                @else
                     <li class="nav-item">
                         <a class="nav-link" href="#">Se connecter</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">S'enregistrer</a>
                     </li>
+                @endauth
                 </ul>
             </form>
         </div>
