@@ -7,7 +7,7 @@
     <meta name="author" content="Matthieu Dufour">
     <meta name="author" content="Théo Borg">
     <meta name="author" content="Paul Félix">
-    <meta name="author" content="Yannis Mally">
+    <meta name="author" content="Yanis Marly">
 
     <title>@yield('title')</title>
 

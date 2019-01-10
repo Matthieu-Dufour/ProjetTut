@@ -23,3 +23,6 @@ Route::get('/mushroom/{id}', ['as' => 'mushroom', 'uses' => 'MushroomController@
 
 Route::get('/createMushroom', ['as' => 'createMushroom', 'uses' => 'CreateMushroomController@index']);
 Route::post('/createMushroom', ['as' => 'createMushroom', 'uses' => 'CreateMushroomController@addMushroom']);
+
+Route::get('/updateMushroom', ['as' => 'updateMushroom', 'uses' => 'UpdateMushroomController@index']);
+Route::post('/updateMushroom', ['as' => 'updateMushroom', 'uses' => 'UpdateMushroomController@updateMushroom']);
