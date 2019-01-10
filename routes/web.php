@@ -20,3 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/mushroom/{id}', ['as' => 'mushroom', 'uses' => 'MushroomController@index']);
+
+Route::get('/createMushroom', ['as' => 'createMushroom', 'uses' => 'CreateMushroomController@index']);
+Route::post('/createMushroom', ['as' => 'createMushroom', 'uses' => 'CreateMushroomController@addMushroom']);
