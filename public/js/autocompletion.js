@@ -115,8 +115,11 @@ $(function () {
 
     $('#smell').autocomplete({
 
-        source: liste
-
+        source: liste,
+        focus: function (event, ui) {
+            $(".ui-helper-hidden-accessible").hide();
+            event.preventDefault();
+        }
     });
 });
 
