@@ -39,4 +39,9 @@ class FavorisController extends Controller
         return view('favoris', compact('fav'), compact('mushrooms'));
     }
 
+    public function deleteMushroomFav($id_mush){
+        $mushroom = DB::table('Favoris')->where('id', $id_mush)->delete();
+        return view('favoris');
+    }
+
 }
