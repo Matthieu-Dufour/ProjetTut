@@ -14,6 +14,7 @@ class CreateLienTable extends Migration
     public function up()
     {
         Schema::create('Lien', function (Blueprint $table) {
+            $table->increments('id');
             $table->integer('id_favoris')->nullable(false)->unsigned();
             $table->integer('id_mushroom')->nullable(false)->unsigned();
             $table->engine = 'InnoDB';

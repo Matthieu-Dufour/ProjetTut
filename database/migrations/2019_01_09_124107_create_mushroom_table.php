@@ -18,24 +18,24 @@ class CreateMushroomTable extends Migration
             $table->string('nameLat', 50)->nulable(false);
             $table->string('nameFr', 50)->nullable(false);
             $table->string('surname', 50)->nullable(false);
-            $table->string('edibility', 50)->nullable(true);
-            $table->string('biotope', 50)->nullable(true);
+            $table->integer('edibility')->nullable(false)->unsigned();
+            $table->integer('biotope')->nullable(false)->unsigned();
             $table->string('stipe', 50)->nullable(true);
             $table->string('cap', 50)->nullable(true);
-            $table->string('trophic_status', 50)->nullable(true);
-            $table->string('smell', 50)->nullable(true);
-            $table->string('groupe', 50)->nullable(true);
+            $table->integer('trophic_status')->nullable(false)->unsigned();
+            $table->integer('smell')->nullable(false)->unsigned();
+            $table->integer('groupe')->nullable(false)->unsigned();
             $table->string('lames', 50)->nullable(true);
             $table->string('confusion', 50)->nullable(true);
             $table->string('flesh', 100)->nullable(true);
             $table->string('image', 100)->nullable(true);
         });
         Schema:: table('Mushroom', function(Blueprint $table){
-            $table->foreign('edibility')->references('status')->on('Edibility');
-            $table->foreign('biotope')->references('region')->on('Biotope');
-            $table->foreign('groupe')->references('nom')->on('Groupe');
-            $table->foreign('smell')->references('nom')->on('Smell');
-            $table->foreign('trophic_status')->references('status')->on('Trophic_Status');
+            $table->foreign('edibility')->references('id')->on('Edibility');
+            $table->foreign('biotope')->references('id')->on('Biotope');
+            $table->foreign('groupe')->references('id')->on('Groupe');
+            $table->foreign('smell')->references('id')->on('Smell');
+            $table->foreign('trophic_status')->references('id')->on('Trophic_Status');
         });
     }
 

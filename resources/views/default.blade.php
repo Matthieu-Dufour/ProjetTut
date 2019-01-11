@@ -19,11 +19,11 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/style.css') }}">
 
     <!-- Polices -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
-
+{{ asset('/css/home.css') }}
         @yield('link')
 </head>
 
@@ -69,7 +69,7 @@
     </header>
 
 
-    <main role="main" style="padding-top: 50px">
+    <main role="main" style="padding-top: 30px">
 
       @yield('content')
 
@@ -88,11 +88,11 @@
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-    <script src="slide.js"></script>
+    <script src="{{ asset('/js/slide.js') }}"></script>
 
-    <script src="livesearch.js"></script>
+    <script src="{{ asset('/js/livesearch.js') }}"></script>
 
-    <script src="autocompletion.js"></script>
+    <script src="{{ asset('/js/autocompletion.js') }}"></script>
     @yield('js')
 </body>
 </html>
