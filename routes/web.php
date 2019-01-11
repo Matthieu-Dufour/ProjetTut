@@ -25,3 +25,4 @@ Route::get('/createMushroom', ['as' => 'createMushroom', 'uses' => 'CreateMushro
 Route::post('/createMushroom', ['as' => 'createMushroom', 'uses' => 'CreateMushroomController@addMushroom']);
 
 Route::post('/mushroomList', ['as' => 'mushroomList', 'uses' => 'MushroomListController@addMushroom']);
+Route::get('/mushroomList/{id_mush}', 'MushroomListController@deleteMushroom');

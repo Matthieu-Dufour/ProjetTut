@@ -42,7 +42,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '100.74.186.64'),
+            'host' => env('DB_HOST', '//sqladmin.infra.univ-lorraine.fr/'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'bdchampi52'),
             'username' => env('DB_USERNAME', 'bdchampi52'),
