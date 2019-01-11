@@ -1,7 +1,6 @@
-@extends('layouts.app')
+@extends('default')
 
 @section('content')
-<<<<<<< HEAD
         <form>
             <div class="panel ombre">
                 <div class="container ">

@@ -20,7 +20,7 @@ class CreateMembreTable extends Migration
             $table->string('mail', 50)->nullable(false);
             $table->string('mdp', 50)->nullable(false);
             $table->string('role', 50)->nullable(true);
-            $table->int('favoris')->nullable(true);
+            $table->integer('favoris')->nullable(false)->unsigned();
         });
         Schema:: table('Membre', function(Blueprint $table){
             $table->foreign('favoris')->references('id')->on('Favoris');
