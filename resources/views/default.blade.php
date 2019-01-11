@@ -39,27 +39,27 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Accueil</a>
+                    <a class="nav-link" href="{{ route('home') }}">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Champignons</a>
+                    <a class="nav-link" href="{{ route('home') }}">Champignons</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
                 <ul class="navbar-nav mr-auto">
                 @auth
                 <li class="nav-item">
-                        <a class="nav-link" href="#">Mon profil</a>
+                        <a class="nav-link" href="{{ route('home') }}">Mon profil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Déconnexion</a>
+                        <a class="nav-link" href="{{ route('logout') }}">Déconnexion</a>
                     </li>
                 @else
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Se connecter</a>
+                        <a class="nav-link" href="{{ route('login') }}">Se connecter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">S'enregistrer</a>
+                        <a class="nav-link" href="{{ route('register') }}">S'enregistrer</a>
                     </li>
                 @endauth
                 </ul>
